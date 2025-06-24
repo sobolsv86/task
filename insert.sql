@@ -96,6 +96,42 @@ values (11, 7, 'Мy dream', 217);
 insert into song  
 values (12, 1, 'мой мир', 288);
 
+
+insert into song  
+values (13, 2, 'my own', 256);
+
+insert into song  
+values (14, 3, 'own my', 188);
+
+insert into song  
+values (15, 4, 'my', 200);
+
+insert into song  
+values (16, 1, 'oh my god', 288);
+
+insert into song  
+values (17, 6, 'myself', 270);
+
+insert into song  
+values (18, 5, 'by myself', 203);
+
+insert into song  
+values (19, 3, 'bemy self', 288);
+
+insert into song  
+values (20, 2, 'myself by', 188);
+
+insert into song  
+values (21, 5, 'by myself by', 288);
+
+insert into song  
+values (22, 1, 'beemy', 208);
+
+insert into song  
+values (23, 7, 'premyne', 176);
+
+
+
 insert into genresartists   
 values (1,2);
 

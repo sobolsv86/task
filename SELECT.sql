@@ -16,5 +16,17 @@ where name not like '% %';
 
 --5
 select name from song
-where name like '%мой%' or name like 'my%';
+where name like 'мой %' 
+or name like '% мой'
+or name like '% мой %'
+or name like 'Мой'
+or name like 'my %'
+or name like '% my'
+or name like '% my %'
+or name like 'my';
+
+
+select name from song
+where string_to_array(lower("name" ), ' ') && array['my', 'мой'];
+
 
